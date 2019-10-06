@@ -1,0 +1,21 @@
+{
+  "name": "download-rsc-as-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "start": "rollup -c --watch",
+    "test": "http-server . -o"
+  },
+  "author": "Franchino Fabio",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "http-server": "^0.11.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^4.2.1",
+    "standard": "^14.3.1"
+  }
+}
