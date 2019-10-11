@@ -1,6 +1,6 @@
 {
   "name": "dl-rsc-as-file",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/dl-rsc-as-file.js",
   "scripts": {
