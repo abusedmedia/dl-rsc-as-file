@@ -90,3 +90,12 @@ downloadAs.svgcnv('svg', 'myFile.png')
 - Auto detect file extension
 - Better method names
 - Testing edge cases
+
+
+### Dev notes
+
+- Edit source
+- Commit mods
+- Run `npm version patch`
+- Push commits
+- Run `npm publish` to make them public
