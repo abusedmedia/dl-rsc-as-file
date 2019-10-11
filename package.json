@@ -1,21 +1,17 @@
 {
-  "name": "dl-rsc-as-file",
-  "version": "1.0.0",
+  "name": "dl-rsc-as-file-wp",
+  "version": "1.0.1",
   "description": "",
-  "main": "rollup.config.js",
+  "main": "dist/dl-rsc-as-file.js",
   "scripts": {
-    "start": "rollup -c --watch",
+    "build": "webpack",
     "test": "http-server . -o"
   },
-  "author": "Franchino Fabio",
+  "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
     "http-server": "^0.11.1",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-node-resolve": "^4.2.1",
-    "standard": "^14.3.1"
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
   }
 }
