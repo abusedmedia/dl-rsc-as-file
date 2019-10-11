@@ -3,11 +3,25 @@
 This library let the user downloads `txt`, `svg`, `img` or `canvas` resources with a convenient funcition call.
 
 
-### Usage
+### Include the library
 
 Install the library with `NPM`
 
 `npm install dl-rsc-as-file`
+
+then, include the library in the browser:
+
+```html
+<script src="/node_modules/dl-rsc-as-file/dist/dl-rsc-as-file.js"></script>
+```
+
+or using unPkg with:
+
+```html
+<script src="https://unpkg.com/dl-rsc-as-file"></script>
+```
+
+### Usage
 
 Check in `tests/` an example file
 
