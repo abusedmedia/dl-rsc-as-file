@@ -1,5 +1,5 @@
 {
-  "name": "download-rsc-as-file",
+  "name": "dl-rsc-as-file",
   "version": "1.0.0",
   "description": "",
   "main": "rollup.config.js",
