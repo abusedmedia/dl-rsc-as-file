@@ -21,6 +21,14 @@ or using unPkg with:
 <script src="https://unpkg.com/dl-rsc-as-file"></script>
 ```
 
+or in ES6:
+
+```js
+import * as downloadAs from 'dl-rsc-as-file';
+
+downloadAs.svg('svg', 'file.svg');
+```
+
 ### Usage
 
 Check in `tests/` an example file
